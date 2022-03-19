@@ -93,7 +93,7 @@ class _CurrencyConvertScreenState extends State<CurrencyConvertScreen> {
                                         iconEnabledColor: Colors.white,
                                         iconDisabledColor: Colors.white,
                                         hint: const Text(
-                                          'dropDownValue',
+                                          'INR',
                                           style:  TextStyle(
                                               color: Colors.white,
                                               fontWeight: FontWeight.bold),
