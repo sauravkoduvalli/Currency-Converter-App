@@ -7,20 +7,17 @@ class ThankYouScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: Container(
-          height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
-          decoration: const BoxDecoration(gradient: primaryLinearGradient),
-          child: const Center(
-            child: Text(
-              'Thank You!',
-              style: TextStyle(
+      body: Container(
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
+        decoration: const BoxDecoration(gradient: primaryLinearGradient),
+        child: const Center(
+          child: Text(
+            'Thank You!',
+            style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: headTextColor
-              ),
-            ),
+                color: headTextColor),
           ),
         ),
       ),
